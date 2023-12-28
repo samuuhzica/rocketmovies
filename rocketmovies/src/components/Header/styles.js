@@ -6,13 +6,12 @@ export const Container = styled.header`
   height: 11.5rem;
   width: 100%;
 
-
   border-bottom-width: 0.1rem;
   border-bottom-style: solid;
   border-bottom-color: ${({ theme }) => theme.COLORS.GRAY_300};
 
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 
   padding: 0 8rem;
@@ -28,6 +27,7 @@ export const Container = styled.header`
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
+    width: 30rem;
 
     > img {
       height: 5.6rem ;
@@ -45,9 +45,12 @@ export const Container = styled.header`
         color: ${({ theme }) => theme.COLORS.GRAY_200};
         font-size: 1.4rem;
         display: flex;
-        flex-direction: row-reverse;
+        align-self: flex-end;
       }
       strong {
+        width: 100%;
+        display: flex;
+        align-self: flex-end;
         color: ${({ theme }) => theme.COLORS.WHITE};
         font-size: 1.8rem;
       }
