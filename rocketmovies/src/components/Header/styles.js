@@ -12,12 +12,16 @@ export const Container = styled.header`
   border-bottom-color: ${({ theme }) => theme.COLORS.GRAY_300};
 
   display: flex;
-  flex-direction: row-reverse;
   justify-content: space-between;
+  align-items: center;
 
   padding: 0 8rem;
 
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_600};
+  > h1 {
+    color: ${({ theme }) => theme.COLORS.PINK};
+    font-size: 2.4rem;
+  }
   `
 
   export const Profile = styled.div`

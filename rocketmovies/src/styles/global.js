@@ -9,11 +9,11 @@ export default createGlobalStyle`
   }
 
   :root {
-    font-size: 62,5%;
+    font-size: 62.5%;
   }
 
   body {
-    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_600};
     color: ${({ theme }) => theme.COLORS.WHITE};
 
     -webkit-font-smoothing: antialised;
