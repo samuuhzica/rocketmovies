@@ -9,7 +9,7 @@ export const Container = styled.header`
 
   border-bottom-width: 0.1rem;
   border-bottom-style: solid;
-  border-bottom-color: ${({ theme }) => theme.COLORS.GRAY_100};
+  border-bottom-color: ${({ theme }) => theme.COLORS.GRAY_300};
 
   display: flex;
   flex-direction: row-reverse;
