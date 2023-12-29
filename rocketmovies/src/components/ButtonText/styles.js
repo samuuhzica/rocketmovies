@@ -9,7 +9,12 @@ export const Container = styled.button`
 
   display: flex;
   flex-direction: row;
+  align-items: center;
 
   margin-left: 0.8rem;
   margin-top: 4rem;
+  > svg {
+    color: ${({ theme }) => theme.COLORS.PINK};
+    margin-right: 0.8rem;
+  }
 `

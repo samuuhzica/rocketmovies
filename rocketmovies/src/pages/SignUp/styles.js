@@ -33,6 +33,7 @@ export const Form = styled.form`
     margin-top: -1rem;
   }
   > button:last-child {
+    display: flex;
     align-self: center;
     margin-left: 12.5rem;
   }
