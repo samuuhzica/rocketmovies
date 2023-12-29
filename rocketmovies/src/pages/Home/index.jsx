@@ -2,6 +2,7 @@ import {FiPlus} from 'react-icons/fi';
 
 import { Container, Content, NewNote } from "./styles";
 import { Header } from "../../components/Header";
+import { Note } from '../../components/Note';
 export function Home() {
 
   return(
@@ -15,10 +16,21 @@ export function Home() {
         Adicionar filme
       </NewNote>
       </div>
-     
-      <Content>
+      <main>
+        
+        <Content>
+      <Note
+      data={{
+        title: 'React', 
+        tags: [
+          {id: '1', name:'react' },
+          {id: '2', name:'rocketseat'}
+        ]
+      }} 
+      />
      
       </Content>
+      </main>
   
     </Container>
   

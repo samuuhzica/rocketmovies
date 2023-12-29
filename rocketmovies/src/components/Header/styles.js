@@ -49,8 +49,8 @@ export const Container = styled.header`
       }
       strong {
         width: 100%;
-        display: flex;
-        align-self: flex-end;
+        display: inline-flex;
+        text-align: end;
         color: ${({ theme }) => theme.COLORS.WHITE};
         font-size: 1.8rem;
       }
