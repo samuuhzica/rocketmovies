@@ -11,15 +11,15 @@ export const Container = styled.header`
   border-bottom-color: ${({ theme }) => theme.COLORS.GRAY_300};
 
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
 
-  padding: 0 8rem;
+  padding: 0 12.8rem;
 
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_600};
   > h1 {
     color: ${({ theme }) => theme.COLORS.PINK};
     font-size: 2.4rem;
+    margin-right: 6.4rem;
   }
   `
 
@@ -28,6 +28,7 @@ export const Container = styled.header`
     align-items: center;
     flex-direction: row-reverse;
     width: 30rem;
+    margin-left: 6.4rem;
 
     > img {
       height: 5.6rem ;
