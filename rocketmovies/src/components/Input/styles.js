@@ -5,8 +5,8 @@ export const Container = styled.div`
 
   display: flex;
   align-items: center;
-  background-color: ${({ theme }) => theme.COLORS.GRAY_900};
-  color: ${({ theme }) => theme.COLORS.GRAY_300};
+  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
+  color: ${({ theme }) => theme.COLORS.GRAY_200};
 
   border-radius: 1rem;
   margin: 0 6.4rem ;
@@ -16,18 +16,18 @@ export const Container = styled.div`
     height: 5.6rem;
     width: 100%;
 
-    color: ${({ theme }) => theme.COLORS.GRAY_300};
+    color: ${({ theme }) => theme.COLORS.WHITE};
     
     padding: 1.2rem;
     background-color: transparent;
     border: 0;
 
     &:placeholder {
-    color: ${({ theme }) => theme.COLORS.GRAY_300};
-
+    color: ${({ theme }) => theme.COLORS.GRAY_200};
     }
   }
   > svg {
     margin-left: 1.6rem;
+    color: ${({ theme }) => theme.COLORS.GRAY_200};
   }
 `
