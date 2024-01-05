@@ -18,14 +18,14 @@ export const Container = styled.div`
   > main {
     grid-area: content;
     overflow-y: scroll;
-    padding: 0 8rem;
+    padding: 0 12.8rem;
   }
   >div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 5rem;
-    padding: 0 8rem;
+    padding: 0 12.8rem;
 
     h1 {
       font-weight: 400;

@@ -1,11 +1,12 @@
 import { Container } from './styles'
 import { Tags } from '../Tags'
+import { MovieReview } from '../MovieReview'
 
 export function Note({ data, ...rest}) {
   return(
     <Container {...rest}>
       <h1>{data.title}</h1>
-
+    <MovieReview />
       {
         data.tags &&
         <footer>

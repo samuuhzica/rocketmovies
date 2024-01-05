@@ -11,7 +11,6 @@ export const Container = styled.button`
   flex-direction: row;
   align-items: center;
 
-  margin-left: 0.8rem;
   margin-top: 4rem;
   > svg {
     color: ${({ theme }) => theme.COLORS.PINK};

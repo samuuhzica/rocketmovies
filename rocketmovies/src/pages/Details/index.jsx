@@ -15,11 +15,20 @@ export function Details() {
    
   
       <ButtonText 
+      className="return-button"
       title="Voltar"
       icon={FiArrowLeft} />
      
-    <MovieReview title="Interestellar" >
-
+    <MovieReview 
+    title="Interestellar" >
+      
+          {
+        Array.from({ length: 5 }, (_, index) => (
+      <li key={index}>
+        <FiStar  />
+      </li>
+    ))
+    }
     </MovieReview>
      
 

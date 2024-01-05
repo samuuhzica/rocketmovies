@@ -3,12 +3,12 @@ import styled from "styled-components";
 export const Container = styled.span`
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 
-  padding: 2rem 1.6rem;
+  padding: 0.8rem 1.6rem;
   border-radius: 0.8rem;
 
-  margin-right: 2.4rem;
+  margin-right: 0.8rem;
 
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
   color: ${({ theme }) => theme.COLORS.WHITE};

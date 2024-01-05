@@ -3,16 +3,12 @@ import styled from "styled-components";
 export const Container = styled.div`
 
   display: flex;
-  margin-top: 4rem;
+  margin-top: 0.8rem;
 
   > span {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    > h1 {
-      margin-right: 2rem;
-    }
   }
 
 `
@@ -20,15 +16,12 @@ export const Container = styled.div`
 export const Rating = styled.ul`
   list-style: none;
   display: flex;
-  text-align: center;
-  margin-top: 0.8rem;
-
+  border: 1px solid red;
   > li {
     margin-right: 1rem;
+    text-align: left;
     font-size: 1.8rem;
     color: ${({ theme }) => theme.COLORS.PINK};
   }
-  > svg {
-    background-color: ${({ theme }) => theme.COLORS.PINK} ;
-  }
+
 `

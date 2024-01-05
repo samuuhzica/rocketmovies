@@ -14,8 +14,12 @@ export const Container = styled.div`
     grid-area: content;
     overflow-y: scroll;
     padding: 0 12.8rem;
-  }
 
+  }
+  
+  .return-button{
+    margin-bottom: 2.4rem;
+  }
 `;
 
 

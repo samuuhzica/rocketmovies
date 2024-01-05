@@ -21,10 +21,11 @@ export function Home() {
         <Content>
       <Note
       data={{
-        title: 'React', 
+        title: 'Interestellar', 
         tags: [
-          {id: '1', name:'react' },
-          {id: '2', name:'rocketseat'}
+          {id: '1', name:'Ficcao cientifica' },
+          {id: '2', name:'Drama'},
+          {id: '3', name:'Familia'}
         ]
       }} 
       />

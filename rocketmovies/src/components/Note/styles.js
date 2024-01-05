@@ -11,7 +11,6 @@ export const Container = styled.button`
   margin-bottom: 1.6rem;
   margin-top: 1.6rem;
   > h1 {
-    flex: 1;
     text-align: left;
     font-weight: 700;
     font-size: 2.4rem;
