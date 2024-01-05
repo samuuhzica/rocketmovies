@@ -13,14 +13,11 @@ export const Container = styled.div`
   > main {
     grid-area: content;
     overflow-y: scroll;
-    padding: 6.4rem 0;
+    padding: 0 12.8rem;
   }
+
 `;
 
-export const Tags = styled.ul`
-  list-style: none;
-  
-`
 
 export const Content = styled.div`
   max-width: 115rem;
@@ -29,14 +26,10 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
 
-  > h1 {
-    padding-top: 6.4rem ;
-    font-weight: 500;
-    font-size: 3.6rem;
-  }
   > p {
     font-size: 1.6rem;
     text-align: justify;
-    margin-top: 1.6rem;
+    margin-top: 4rem;
+    margin-bottom: 6.4rem;
   }
 `

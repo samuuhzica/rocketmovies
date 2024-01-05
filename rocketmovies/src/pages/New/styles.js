@@ -13,6 +13,7 @@ export const Container = styled.div`
   > main {
     grid-area: 'content';
     overflow-y: scroll;
+    padding: 0 12.8rem;
   }
 
   .tags {
@@ -45,4 +46,15 @@ export const Form = styled.form`
     display: flex;
     gap: 4rem;
   }
+
+  .button-delete {
+    color: ${({ theme }) => theme.COLORS.PINK};
+    background-color: ${({ theme }) => theme.COLORS.BLACK};
+  }
+
+  .button-add {
+    color: ${({ theme }) => theme.COLORS.BLACK};
+    background-color: ${({ theme }) => theme.COLORS.PINK};
+  }
+
 `

@@ -25,22 +25,34 @@ export function New(){
 
     <Textarea
     placeholder="Observações" 
-    value="" >
+    value=" " >
 
     </Textarea>
 
     <Section title="Marcadores" >
     <div className="tags">
 
-    <NoteItem value="React" />
-    <NoteItem isnew  placeholder="Novo Marcador" />
+    <NoteItem 
+    value="React"
+    placeholder="React"
+
+     />
+    <NoteItem 
+    value="Novo marcador"
+    placeholder="Novo Marcador" />
     </div>
     </Section>
+    
     <div>
-
-    <Button title="Excluir" />
-    <Button title="Salvar" />
+    <Button 
+    className="button-delete"
+    title="Excluir filme" />
+    <Button
+    className="button-add"
+     title="Salvar alterações" />
     </div>
+
+    
         </Form>
       </main>
     </Container>
