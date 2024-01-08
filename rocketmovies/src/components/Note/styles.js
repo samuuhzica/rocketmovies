@@ -15,6 +15,21 @@ export const Container = styled.button`
     font-weight: 700;
     font-size: 2.4rem;
     color: ${({ theme }) => theme.COLORS.WHITE};
+    margin-bottom: 0.8rem;
+  }
+  
+  > ul {
+    font-size: 1.2rem;
+  }
+  > p {
+    height: 3.6rem;
+    font-family: 'Roboto', sans-serif;
+    color: ${({ theme }) => theme.COLORS.GRAY_100};
+    text-align: justify;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical;
   }
   > footer {
     width: 100%;

@@ -29,6 +29,7 @@ export function Home() {
         ]
       }} 
       />
+
      
       </Content>
       </main>

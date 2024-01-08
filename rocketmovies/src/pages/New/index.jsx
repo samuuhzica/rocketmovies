@@ -5,6 +5,8 @@ import { NoteItem } from "../../components/NoteItem";
 import { Section } from "../../components/Section"
 import { Button } from "../../components/Button"
 import { Container, Form } from "./styles";
+import { ButtonText } from "../../components/ButtonText";
+import { FiArrowLeft } from "react-icons/fi";
 
 
 export function New(){
@@ -14,7 +16,9 @@ export function New(){
       <main>
         <Form>
           <header>
-            <a href="/">voltar</a>
+            <ButtonText
+            icon={FiArrowLeft} 
+            title="Voltar"/>
             <h1>Novo filme</h1>
           </header>
     <div>
@@ -25,7 +29,7 @@ export function New(){
 
     <Textarea
     placeholder="Observações" 
-    value=" " >
+   >
 
     </Textarea>
 
@@ -35,11 +39,11 @@ export function New(){
     <NoteItem 
     value="React"
     placeholder="React"
-
      />
     <NoteItem 
-    value="Novo marcador"
-    placeholder="Novo Marcador" />
+    $isNew
+    placeholder="Novo Marcador"
+     />
     </div>
     </Section>
     

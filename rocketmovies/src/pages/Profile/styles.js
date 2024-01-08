@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background: ${({ theme }) => theme.COLORS.BACKGROUND_750};
+  background: ${({ theme }) => theme.COLORS.BACKGROUND_600};
   width: 100%;
   height: 100vh;
 
@@ -19,14 +19,14 @@ export const Header = styled.div`
   }
 `
 export const Form = styled.form`
-  max-width: 34rem;
-  margin: 3rem auto 0;
+  margin: 0 55rem ;
   display: flex;
   flex-direction: column;
   align-items: center ;
+  
 
   >div:nth-child(4){
-    margin-top: 2.4rem;
+    margin-top: 1.6rem;
   }
 
 `

@@ -16,17 +16,18 @@ export const Container = styled.div`
     padding: 0 12.8rem;
   }
 
+
   .tags {
+    display: flex;
     background-color: ${({ theme }) => theme.COLORS.BLACK};
     padding: 1.6rem;
-    display: flex;
     flex-wrap: wrap;
     gap: 2.4rem;
+    border-radius: 0.8rem;
   }
 `
 export const Form = styled.form`
-  max-width: 115rem;
-  margin: 3.8rem auto;
+  margin: 4rem auto;
 
   > header {
     display: flex;
@@ -35,7 +36,7 @@ export const Form = styled.form`
     
     margin-bottom: 4rem;
 
-    a {
+    button {
      font-size: 2rem;
      color:${({ theme }) => theme.COLORS.PINK};
      margin-bottom: 2.4rem;

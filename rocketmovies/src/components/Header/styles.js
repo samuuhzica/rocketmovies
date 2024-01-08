@@ -54,6 +54,8 @@ export const Container = styled.header`
         text-align: end;
         color: ${({ theme }) => theme.COLORS.WHITE};
         font-size: 1.8rem;
+        white-space: nowrap; 
+        
       }
     }
   
